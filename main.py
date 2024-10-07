@@ -5,9 +5,9 @@ print(my_dict['Elena'])
 my_dict['Nastya'] = 2011
 my_dict.update({'Alex': 2018,
                 'Angel': 2025})
-del my_dict['Sergey']
+a = my_dict.pop('Sergey')
 print(my_dict.get('Sergey'))
-print(my_dict.get('Sergey', 2008))
+print(a)
 print(my_dict)
 
 #Практическое задание 2
